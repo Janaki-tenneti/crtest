@@ -1,0 +1,95 @@
+body{
+  background-color: purple;
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 2px solid black;
+}
+
+h1{
+	float: left;
+	margin-top: 0;
+	margin-left: 0;
+}
+.navbar-toggle{
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top:  8px;
+	margin-right:  15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.navbar-toggle.focus{
+ outline: 0;
+}
+.navbar-toggle .icon-bar{
+	display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+ }
+ .navbar-toggle .icon-bar + .icon-bar{
+ 	margin-top: 4px;
+ }   
+ @media (min-width: 768px){
+ 	.navbar-toggle{
+ 		display: none;
+ 	}
+ }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid purple;
+}
+#name{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	font-style: bold;
+}
+@media (min-width: 1200px){
+.jumbotron{
+	box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(200,205,215);
+    height: 500px;
+ }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.jumbotron{
+	box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(200,205,215);
+    height: 500px;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.jumbotron{
+	box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(200,205,215);
+    height: 680px;
+ }
+}
+ 
+ @media (max-width: 767px)
+  {
+     .jumbotron{
+
+	   box-sizing: border-box;
+	   background-color: rgb(200,205,215);
+	   height: 750px;
+	   width: 500px;
+	  margin-right: 100px;
+	   margin-left: 80px;
+    }
+}
+#collapsable-nav{
+	text-align: center;
+}
