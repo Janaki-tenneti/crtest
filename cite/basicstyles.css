@@ -57,6 +57,7 @@ h1{
     margin-right: 0;
     background-color: rgb(200,205,215);
     height: 500px;
+    
  }
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -65,7 +66,7 @@ h1{
     margin-left: 0;
     margin-right: 0;
     background-color: rgb(200,205,215);
-    height: 500px;
+    
  }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -84,12 +85,24 @@ h1{
 
 	   box-sizing: border-box;
 	   background-color: rgb(200,205,215);
+	   margin-top: 50px;
 	   height: 750px;
 	   width: 500px;
 	  margin-right: 100px;
 	   margin-left: 80px;
+	   padding-left: 10px;
+	   padding-right: 10px;
     }
 }
 #collapsable-nav{
 	text-align: center;
+}
+h4{
+	text-align: center;
+	font-size: 30px;
+}
+
+.menu-item{
+	text-align: center;
+
 }
