@@ -106,3 +106,18 @@ h4{
 	text-align: center;
 
 }
+@media (max-width: 767px)
+  {
+     .jumbotron2{
+
+	   box-sizing: border-box;
+	   background-color: rgb(200,205,215);
+	   margin-top: -20px;
+	   height: 750px;
+	   width: 717px;
+	  margin-right: 0px;
+	   margin-left: 0px;
+	   padding-left: 10px;
+	   padding-right: 10px;
+    }
+}
